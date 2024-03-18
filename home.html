@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTO RECIPE</title>
+    <style>
+        .image {
+            height: 100px;
+            width: auto;
+        }
+
+        .h {
+            color: rgb(0, 23, 14);
+            font-size: 40px;
+            text-align: center;
+            box-shadow: 5px 5px 5px 5px gray;
+        }
+
+        .span {
+            color: rgb(0, 27, 23);
+        }
+
+        .list {
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+            align-items: center;
+            text-decoration: none;
+
+        }
+
+        div {
+            margin: 10px;
+            align-items: flex-start;
+            flex-direction: row;
+        }
+
+        .link {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: large;
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        .image-gallary {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-decoration: none;
+
+        }
+  
+
+        .image-gallary>article>a>img {
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px 5px gray;
+        }
+
+        /* .recipe_name{
+            font-size: 20px;
+            text-decoration: none;      alter of recipe name heading
+            height: 10px;
+        } */
+        article>a>header {
+            /* background-color: #14ddd0;*/
+            justify-content: center;
+            text-align: center;
+            padding-top: 10px;
+
+            /* padding: 10px; */
+            color: black;
+            font-size: x-large;
+            text-align: center;
+            /*image  and recipe name*/
+            text-transform: uppercase;
+            height: 50px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px 5px gray;
+        }
+
+        .pop {
+            text-align: center;
+            /* border-radius: 10px; */
+            font-size: 35px;
+            /* popular items*/
+            text-decoration: underline;
+
+        }
+
+        footer {
+            margin-top: 20px;
+            background-color: #004d5b;
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family: "Open Sans", sans-serif;
+        }
+        .image-gallary>article>a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        alert("first click on ok button");
+    </script>
+    <header>
+        <section>
+            <article>
+                <H1 class="h">
+                    <img src="logo.jpg" class="image"><br>
+                    RESTO <span class="span">RECIPE </span>
+                </H1>
+                <hr>
+
+            </article>
+            <ul class="list">
+                <li><a href="gujarati.html" class="link">
+
+                        Gujarati
+                    </a>
+                </li>
+                <li><a href="punjabi.html" class="link">
+                        Punjabi
+                    </a>
+                </li>
+                <li><a href="south.html" class="link">
+                        South Indian
+                    </a>
+                </li>
+                <li><a href="bengali.html" class="link">
+                        Bengali
+                    </a>
+                </li>
+                <li><a href="rajasthani.html" class="link">
+                        Rajasthani
+                    </a>
+                </li>
+                <li><a href="hyderabadi.html" class="link">
+                        Hyderabadi
+                    </a>
+                </li>
+            </ul>
+            <hr>
+        </section>
+    </header>
+    <h2 class="pop">Popular Recipe</h2>
+    <section class="image-gallary">
+        <article>
+            <a href="">
+                <header class="recipe_name">Paneer</header>
+                <img src="images/Punjabi/paneer.jpg" alt="">
+            </a>
+        </article>
+        <article>
+            <a href="">
+                <header class="recipe_name">Dabeli</header>
+                <img src="images/Gujarati/dabeli.webp" alt="">
+            </a>
+        </article>
+        <article>
+            <a href="">
+                <header class="recipe_name">Fafda</header>
+                <img src="images/Gujarati/fafda.jpg" alt="">
+            </a>
+        </article>
+        <article>
+            <a href="">
+                <header class="recipe_name">Jalebi</header>
+                <img src="images/Gujarati/jalebi.jpg" alt="">
+            </a>
+        </article>
+        <article>
+            <a href="">
+
+                <header class="recipe_name">Khaman</header>
+                <img src="images/Gujarati/khaman.webp" alt="">
+            </a>
+        </article>
+        <article>
+            <a href="">
+                <header class="recipe_name">Khandavi</header>
+                <img src="images/Gujarati/khandavi.webp" alt="">
+            </a>
+        </article>
+        <article>
+            <a href="">
+                <header class="recipe_name">Undhiyu</header>
+                <img src="images/Gujarati/undhiyu.jpg" alt="">
+            </a>
+        </article>
+        <article>
+            <a href="">
+                <header class="recipe_name">Idli</header>
+                <img src="images/South/idli.jpg" alt="">
+            </a>
+        </article>
+        <article>
+            <a href="">
+                <header class="recipe_name">Dosa</header>
+                <img src="images/South/dosa.jpg" alt="">
+            </a>
+        </article>
+        <article>
+            <a href="">
+                <header class="recipe_name">Medu Vada</header>
+                <img src="images/South/meduvada.jpg" alt="">
+            </a>
+        </article>
+        <article>
+            <a href="">
+                <header class="recipe_name">Uttapam</header>
+                <img src="images/South/uttapam.jpg" alt="">
+            </a>
+        </article>
+        <article>
+            <a href="">
+                <header class="recipe_name">Payasam</header>
+                <img src="images/South/payasam.jpg" alt="">
+            </a>
+        </article>
+
+
+    </section>
+
+    <footer>
+        <p>Developed By :- Azim Ajmeri, Dubai</p>
+        <p>Mobile no :- 1234567890, Email : azimajmeri0301@gmail.com</p>
+    </footer>
+</body>
+
+</html>

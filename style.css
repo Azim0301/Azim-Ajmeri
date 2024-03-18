@@ -1,0 +1,108 @@
+/* external stylesheet */
+article{
+    font-size: larger;
+}
+article>header>h1{
+    box-shadow: 5px 5px 5px 5px gray;
+    font-size: 40px;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding-top: 10px;
+    background-color: rgb(7, 147, 133);
+
+    height: 50px;
+}
+
+
+article>span
+{
+    display: flex;
+    gap: 30px;
+}
+article>span>aside
+{
+    width:40%;
+    height: 300%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius:100px ;
+    background-color: #a5f0e0; 
+    box-shadow: 5px 5px 5px gray;
+
+}
+article>span>div 
+{
+    width:75%;
+}
+div>figure>img{
+    border-radius: 50px;
+}
+.intro{
+display: flex;
+}
+#photo{
+    height: 400px;
+    width: 400px;
+}
+aside>h2{
+    text-align: center;
+}
+aside>ul{
+    line-height: 150%;
+}
+#recipe{
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(7, 147, 133);
+    border: 3px solid green;
+}
+.discription>p{
+    line-height: 150%;
+    text-indent: 50px;
+}
+.instruction{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.image-gallary>article>a>img {
+    
+    width: 225px;
+    height: 225px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px gray;
+   
+}
+.image-gallary>article>a>footer{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    background-color: #c11a1a;
+}
+.image-gallary>article>a{
+    text-decoration: none;
+    background-color: aqua;
+    text-transform: uppercase;
+}
+
+    .image-gallary{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      
+}
+.or{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer {
+    margin-top: 20px;
+    background-color: #004d5b;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+}
